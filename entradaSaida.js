@@ -7,7 +7,7 @@ export class FuncoesES {
     cadastroCompleto(campos) {
         let dados = [];
         for (let i=0; i < campos.length; i++) {
-            let valor = this.entrada(`Digite ${campos[i]} `);
+            let valor = this.entrada(`Digite ${campos[i]} aqui: `);
             dados[i] = valor;
         }
         return dados;
