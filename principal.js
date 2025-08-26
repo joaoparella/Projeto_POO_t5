@@ -19,7 +19,7 @@ var series = [new Serie("Episódio piloto",50,"alguma coisa aconteceu",2020,1,1,
 
 const usuario1 = new Usuario('Roberval','robe@email.com','987654321');
 
-usuario1.senha = '000000000000000';
+usuario1.senha = '98123';
 objEntradaSaida.mensagemCompleta(usuario1.senha)
 
 let dados = objEntradaSaida.cadastroCompleto(['nome', 'email', 'senha']);
