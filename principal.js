@@ -24,14 +24,3 @@ objEntradaSaida.mensagemCompleta(usuario1.senha)
 
 let dados = objEntradaSaida.cadastroCompleto(['nome', 'email', 'senha']);
 usuarios.push(new Usuario(dados[0], dados[1], dados[2])); 
-
-// objEntradaSaida.mensagemCompleta(`Usuário ${usuarios[0].nome} cadastrado com sucesso!`);
-
-
-// objEntradaSaida.mensagemCompleta(`Assinatura do usuário: ${usuarios[0].retornarAssinatura()}`);
-// objEntradaSaida.mensagemCompleta(`Assinatura do usuário: ${usuarios[0].validarAssinatura()}`);
-
-// usuarios[0].adicionarAssinatura(30);
-
-// objEntradaSaida.mensagemCompleta(`Assinatura do usuário: ${usuarios[0].retornarAssinatura()}`);
-// objEntradaSaida.mensagemCompleta(`Assinatura do usuário: ${usuarios[0].validarAssinatura()}`);
