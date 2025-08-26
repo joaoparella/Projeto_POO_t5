@@ -23,6 +23,8 @@ export class FuncoesES {
 
     mensagemCompleta(mensagem) {
         console.log("******************************");
+        console.log("******************************");
+        console.log("******************************");
         console.log(mensagem);
         console.log("******************************");
     }
